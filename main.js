@@ -5,6 +5,15 @@ Tüm <img> etiketlerine mouseenter ve mouseleave eventleri ekleyin.
 - Mouse çıktığında (mouseleave): "grayscale" class'ını kaldırın.
 */
 
+document.querySelectorAll("img").forEach((el) => {
+  el.addEventListener("mouseenter", () => {
+    el.classList.add("grayscale");
+  });
+  el.addEventListener("mouseleave", () => {
+    el.classList.remove("grayscale");
+  });
+});
+
 /*
 CHALLENGE 2:
 Sayfa aktifken (herhangi bir yere tıklandığında), klavye dinlemeye başlasın.

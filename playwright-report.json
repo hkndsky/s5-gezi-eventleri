@@ -1,71 +1,71 @@
 {
   "stats": {
-    "expected": 2,
-    "unexpected": 9,
+    "expected": 6,
+    "unexpected": 6,
     "skipped": 0,
     "flaky": 0,
-    "duration": 6069
+    "duration": 3096
   },
   "tests": [
     {
       "title": "img hover edildiğinde grayscale class eklenmeli",
       "status": "passed",
-      "duration": 361
+      "duration": 351
     },
     {
       "title": "img mouseleave olunca grayscale class silinmeli",
       "status": "passed",
-      "duration": 141
+      "duration": 134
     },
     {
       "title": "1 tuşuna basıldığında body class theme1 olmalı",
-      "status": "failed",
-      "duration": 193
+      "status": "passed",
+      "duration": 82
     },
     {
       "title": "2 tuşuna basıldığında body class theme2 olmalı",
-      "status": "failed",
-      "duration": 392
+      "status": "passed",
+      "duration": 79
     },
     {
       "title": "3 tuşuna basıldığında body class theme3 olmalı",
-      "status": "timedOut",
-      "duration": 2012
+      "status": "passed",
+      "duration": 85
     },
     {
       "title": "Escape tuşuna basıldığında tüm theme classları kaldırılmalı",
-      "status": "failed",
-      "duration": 517
+      "status": "passed",
+      "duration": 84
     },
     {
       "title": "Inputa yazılan metin büyük harfe dönüşmeli",
       "status": "failed",
-      "duration": 288
+      "duration": 81
     },
     {
       "title": "5 karakterden küçükken buton disabled olmalı",
       "status": "failed",
-      "duration": 403
+      "duration": 423
     },
     {
       "title": "5 karakter ve üzeri yazıldığında buton enabled olmalı",
       "status": "failed",
-      "duration": 424
+      "duration": 421
     },
     {
       "title": "Submit edildiğinde paragraf güncellenmeli",
       "status": "failed",
-      "duration": 471
+      "duration": 452
     },
     {
       "title": "Submit sonrası input alanı sıfırlanmalı",
       "status": "failed",
-      "duration": 429
+      "duration": 454
     },
     {
       "title": "Submit sonrası buton disabled olmalı",
       "status": "failed",
-      "duration": 439
+      "duration": 451
     }
   ]
 }

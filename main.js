@@ -22,6 +22,20 @@ Sayfa aktifken (herhangi bir yere tıklandığında), klavye dinlemeye başlası
 - "Escape" (Esc) tuşuna basılırsa body'deki tüm bu class'lar kaldırılsın
 NOT: Klavye eventlerini document yerine **window** nesnesine ekleyin.
 */
+let isKeyboardListened = false;
+
+if (!isKeyboardListened) {
+  isKeyboardListened = true;
+  window.addEventListener("keydown", (e2) => {
+    const bodyClasses = document.body;
+    if (e2.key >= "1" && e2.key <= "3") {
+      bodyClasses.classList.add("theme" + e2.key);
+    }
+    if (e2.key === "Escape") {
+      bodyClasses.setAttribute("class", "");
+    }
+  });
+}
 
 /*
 CHALLENGE 3:

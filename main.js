@@ -65,3 +65,11 @@ Form submit edildiğinde (Kaydet butonuna basıldığında):
 - Input alanını temizleyin
 - <button> tekrar disabled hale gelsin
 */
+
+const submitRes = document.getElementById("submitResult");
+
+button.addEventListener("click", () => {
+  submitRes.textContent = `${nameField.value} başarı ile kaydedildi.`;
+  nameField.value = "";
+  button.disabled = true;
+});
